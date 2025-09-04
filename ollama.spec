@@ -1,3 +1,6 @@
+# Platforms that aren't supported by official builds
+ExcludeArch:    ppc64le s390x
+
 %define packagePatch 1
 %global debug_package %{nil}
 
