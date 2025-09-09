@@ -33,10 +33,8 @@ Requires:       hipblas
 Requires:       rocblas
 %endif
 
-%description %{expand:
-Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language
-models.
-}
+%description
+Get up and running with Llama 3.2, Mistral, Gemma 2, and other large language models.
 
 %pre
 # Create ollama group if it doesn't exist
